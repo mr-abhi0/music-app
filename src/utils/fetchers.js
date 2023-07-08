@@ -21,14 +21,14 @@ export async function fetchTrack(id) {
     return data;
 }
 
-export async function fetchTopTracks({ limit = 10 } = {}) {
+export async function fetchTopTracks({ limit = 20 } = {}) {
     const endpoint = `/chart/0/tracks?limit=${ limit }`;
     const { data } = await fetchData(endpoint);
 
     return data;
 }
 
-export async function fetchTopArtists({ limit = 3 } = {}) {
+export async function fetchTopArtists({ limit = 10 } = {}) {
     const endpoint = `/chart/0/artists?limit=${ limit }`;
 
     const { data } = await fetchData(endpoint);

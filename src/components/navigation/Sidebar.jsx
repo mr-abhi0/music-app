@@ -58,7 +58,7 @@ const Sidebar = () => {
                 </ul>
             </div>
 
-            <a href='https://github.com/IdoBouskila/' target='_blank'>
+            <a href='https://github.com/mr-abhi0' target='_blank'>
                 <AiFillGithub />
                 <span>Github</span>
             </a>
