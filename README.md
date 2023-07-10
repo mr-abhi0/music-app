@@ -8,6 +8,8 @@ This Project built with Next.js, Redux & Redux Persist, SWR and Wavesurfer.js.
 
 ![](https://i.imgur.com/bDbPNwe.png)
 
+Live Preview : https://mr-abhi-music.netlify.app/
+
 ## Features
 
 - Browse albums, songs, artists, radio channels and playlists
